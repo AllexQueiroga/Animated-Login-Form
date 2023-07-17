@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Animated login form</title>
+   </head>
+   <body>
+      <div class="login">
+         <img src="./assets/img/login-bg.png" alt="imagem de fundo" class="login__image">
+
+         <form class="login__form">
+            <h1 class="login__title">Login</h1>
+
+            <div class="login__content">
+               <div class="login__box">
+                  <i class="ri-user-line login__icon"></i>
+                  <div class="login__box-input">
+                     <input type="email" class="login__input" id="login-user" required placeholder=" ">
+                     <label for="login__input" class="login__label">Email</label>
+                  </div>
+               </div>
+
+               <div class="login__box">
+                  <i class="ri-lock-line login__icon"></i>
+                  <div class="login__box-input">
+                     <input type="password" class="login__input" id="login-pass" required placeholder=" ">
+                     <label for="login__input" class="login__label">Senha</label>
+                     <i class="ri-eye-off-line login__eye" id="login-eye"></i>
+                  </div>
+               </div>
+
+               <div class="login__check"> 
+                  <div class="login__check-group">
+                     <input type="checkbox" class="login__check-input">
+                     <label for="" class="longin__check-label">Lembre me</label>
+                  </div>
+
+                  <a href="#" class="login__forgot">Esqueceu a senha?</a>
+               </div>
+               <button class="login__button">Login</button>
+               <p class="login__register">Ainda não possui conta? <a href="#">Registre-se</a></p>
+            </div>
+         </form>
+      </div>
+      
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
